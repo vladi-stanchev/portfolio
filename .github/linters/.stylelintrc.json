@@ -1,0 +1,15 @@
+{
+    "extends": "stylelint-config-standard",
+    "rules": {
+        "font-family-name-quotes": null,
+        "comment-whitespace-inside": null,
+        "comment-empty-line-before": null,
+        "declaration-block-no-redundant-longhand-properties": null,
+        "color-function-notation": null,
+        "alpha-value-notation": null,
+        "color-function-notation": null,
+        "media-feature-range-notation": null,
+        "keyframes-name-pattern": null,
+        "property-no-vendor-prefix": null
+      }
+}

@@ -1,0 +1,54 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "name": "stol",
+            "img": "images/stol.webp",
+            "shortDesc": "A React store for quirky chairs named after notable people of Hispanic origin",
+            "longDesc": "My first React app which I'm planning to come back to at some point. The aim was to create a sleek and easy to navigate store. Lots of repetitive elements handled by React.",
+            "stack": ["React", "HTML", "CSS", "JSON"],
+            "githubLink": "https://github.com/vladi-stanchev/stol",
+            "liveLink": "https://chairs-that-hug.netlify.app/"
+        },
+        {
+            "id": 1,
+            "name": "Portfolio",
+            "img": "images/portfolio.png",
+            "shortDesc": "A website to showcase my work.",
+            "longDesc": "I created this Portfolio website to establish my brand as a web developer. JSON was used to populate the Work section.",
+            "stack": ["JavaScript", "HTML", "CSS", "JSON"],
+            "githubLink": "https://github.com/vladi-stanchev/portfolio",
+            "liveLink": ""
+        },
+        {
+            "id": 2,
+            "name": "Restaurant Reviews",
+            "img": "images/restaurant-reviews.png",
+            "shortDesc": "A Progressive Web App project",
+            "longDesc": "Here I explored the capabilities of Progressive Web Apps (PWA) which can be installed and behave like native apps (to an extent). The website is fully responsive and should be accessible offline, utilising caching and Service Worker API.",
+            "stack": ["PWA", "JavaScript", "HTML", "CSS", "JSON"],
+            "githubLink": "https://github.com/vladi-stanchev/mws-restaurant-reviews",
+            "liveLink": "https://restaurantreviews.netlify.app/"
+        },
+        {
+            "id": 3,
+            "name": "Safer Streets",
+            "img": "images/safer-streets.png",
+            "shortDesc": "A website about a Government's Funding scheme",
+            "longDesc": "A simple website that provides information about a funding opportunity for community projects. I volunteered to create this website in order to attract more community groups to apply for the funding.",
+            "stack": ["HTML", "CSS"],
+            "githubLink": "",
+            "liveLink": "https://saferstreets.hartcliffe.org"
+        },
+        {
+            "id": 4,
+            "name": "Hartcliffe Coderz",
+            "img": "images/hartcliffe-coderz.png",
+            "shortDesc": "A community group website for young people interested in coding",
+            "longDesc": "Simple website to advertise a couple of summer coding camps for children. Basic technology used for this static page. It is fully responsive.",
+            "stack": ["HTML", "CSS"],
+            "githubLink": "",
+            "liveLink": "https://coderz.hartcliffe.org"
+        }
+    ]
+}

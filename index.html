@@ -1,27 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Template</title>
-
+    <title>Vladi Stanchev</title>
     <meta name="description" content="Template HTML file">
     <meta name="author" content="iO Academy">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+        rel="stylesheet">
+    <!-- End of Google Fonts -->
 
+    <!-- Material Font  -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
     <link rel="icon" href="images/favicon.png" sizes="192x192">
     <link rel="shortcut icon" href="images/favicon.png">
     <link rel="apple-touch-icon" href="images/favicon.png">
-
+    <link rel="stylesheet" href="css/styles.css">
     <script defer src="js/index.js"></script>
 </head>
 
 <body>
+    <header>
+        <nav class="sticky">
+            <ul class="top-nav">
+                <li><a href="#"><span class="material-symbols-outlined home">
+                            home
+                        </span></a></li>
+                <li><a href="#work">work</a></li>
+                <li>
+                    <a href="#about">about</a>
+                </li>
+                <li>
+                    <a href="#contact">contact</a>
+                </li>
+                <li class="display-not"><a href="https://coderz.hartcliffe.org"><img src="images/hc_logo.png"
+                            alt="Hartcliffe Coderz logo" class="hc-logo" title="Hartcliffe Coderz"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="flex">
 
-<h1>Website Template</h1>
+        <section class="hello flex">
+            <h1>Hi, I'm <span class="bold-text">Vladi</span>.<br>A web developer.</h1>
+            <p>I'm passionate about crafting engaging, accessible, and user-centric experiences.</p>
+            <span class="scroll-down-link scroll-down-arrow"></span>
+        </section>
+        <section class="work flex" id="work">
+            <div class="work-content flex">
+                <h1>work.</h1>
+                <p>some of my projects below</p>
+                <div class="projects flex" id="projects">
+                </div>
+            </div>
+        </section>
+        <section class="flex about" id="about">
+            <div class="about-content flex">
 
+                <div class="flex"><img src="images/face.png" class="headshot" alt="Vladi smiling"></div>
+
+                <div class="about-text">
+                    <h1>about.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, fuga omnis aspernatur, quia quasi
+                        culpa
+                        repudiandae libero doloremque expedita ex molestiae iure reprehenderit cupiditate rerum neque
+                        nisi
+                        nobis perspiciatis adipisci. </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, fuga omnis aspernatur, quia quasi
+                        culpa
+                        repudiandae libero doloremque expedita ex molestiae iure reprehenderit cupiditate rerum neque
+                        nisi
+                        nobis perspiciatis adipisci libero doloremque expedita. </p>
+
+                    <a href="#" class="bold-text">More</a>
+                </div>
+            </div>
+        </section>
+        <section class="flex about" id="contact">
+            <div class="contact-content flex">
+                <div class="contact">
+                    <h1>let's talk.</h1>
+                    <form action="https://fabform.io/f/Qxh5b1L" method="post" class="contact-form">
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="dark-btn">Submit</button>
+                    </form>
+                </div>
+                <div class="flex col">
+                    <h4>Based in</h4>
+                    <p>Bristol, UK</p>
+                    <div>Social Media</div>
+                </div>
+            </div>
+        </section>
+        <section class="contact"></section>
+        <footer></footer>
+        <div class="modal-overlay closed" id="modal-overlay"></div>
+    </main>
 </body>
+
 </html>

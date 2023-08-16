@@ -237,19 +237,19 @@ h3 {
 }
 
 .tech-tag {
-    border: 0px solid #454545;
+    border: 0 solid #454545;
     background-color: rgba(255, 255, 255, 0.477);
     color: #787878;
     border-radius: 10px;
     padding: 0.3rem 2rem;
     font-size: 1rem;
-    margin: 0rem 0.2rem;
+    margin: 0 0.2rem;
     margin-top: 0.8rem;
 }
 
 .tech .small {
     font-size: 0.8rem;
-    margin: 0.1rem 0.1rem;
+    margin: 0.1rem;
     padding: 0.2rem 0.5rem;
     color: #454545;
     background-color: rgba(255, 255, 255, 0);
@@ -317,14 +317,14 @@ h3 {
     z-index: 1;
     height: 25px;
     width: 80px;
-    margin: 0px 0 0 -40px;
+    margin-left: -40px;
     line-height: 60px;
     left: 50%;
     bottom: 40px;
     text-align: center;
     font-size: 70px;
     text-decoration: none;
-    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.206);
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.206);
     -webkit-animation: fade_move_down 2.5s ease-in-out infinite;
     -moz-animation: fade_move_down 2.5s ease-in-out infinite;
     animation: fade_move_down 2.5s ease-in-out infinite;
